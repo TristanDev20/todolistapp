@@ -89,7 +89,7 @@ module.exports.markasComplete = (req, res) => {
 	Task.findById(taskId)
 		.then(task => {
 			if(!task) { 
-				return res.stats(404).send({ message: 'No Task found'});
+				return res.status(404).send({ message: 'No Task found'});
 			}
 
 			task.status = 'completed';
