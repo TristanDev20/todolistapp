@@ -1,5 +1,5 @@
 const Task = require('../models/Task');
-const {errorHandler} = require('../errorHandler');
+const {errorHandler} = require('../errorhandler');
 const mongoose = require('mongoose');
 
 module.exports.addTask = (req, res) => {
