@@ -1,0 +1,9 @@
+{
+    "endpoints": {
+        "addTask": "/todos",
+        "getTasks":"/todos",
+        "updateTask":"/todos/:taskId",
+        "markasComplete":"/todos/:taskId",
+        "deleteTask":"/todos/:taskId"
+    }
+}
